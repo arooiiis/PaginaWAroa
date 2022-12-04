@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: beauf;
+     src: url(../font/BeaufortforLOL-Heavy.otf);
+}
+@font-face {
+  font-family: fino;
+  src: url(../Font/BeaufortforLOL-Medium.otf);
+}
+header{
+  background-image: url(../Imagenes/lol-header.jpg);
+  justify-content:center;
+  padding: 0;
+  margin: 0;
+  height: 15vh;
+  background-size: auto;
+  background-size: cover 100% 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+h2{
+  background-color: rgb(0, 0, 0);
+  height: 10px;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  padding-top:30px;
+  background-color: rgb(211, 29, 29);
+  display: grid;
+}
+.texto{
+  background-image: url(../Imagenes/belveth-color-splash.jpg);
+  font-family: beauf;
+  color: #ffb703;
+  text-align: center;
+  font-size: 40px;
+  border: inset 7px rgb(253, 253, 253);
+ -webkit-text-stroke: 2px rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 8vh;
+  position: relative;
+}
+body {
+  position:relative;
+  text-align: center;
+ -webkit-font-smoothing: antialiased;
+  color: #131312;
+  background-image: url(../Imagenes/gradient.png);
+  background-size: cover;
+}
+h3{
+  font-family: fino;
+  color: black;
+  background-image: linear-gradient(#c89b3c, #785a28);
+  height: 16vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-image: linear-gradient(#c89b3c, #785a28);
+  padding: 10px;
+  }
+  
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  }
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  }
+@keyframes example {
+    0%   {right: 100px; top: 0px;}
+    100%  {right: 0px; top: 0px;}
+}
+.mapa{
+    width: 145px;
+    height: 145px;
+}
+.mask1{
+  -webkit-mask-image: url(../Imagenes/League_of_legends_logo.webp);
+  mask-image: url(../Imagenes/League_of_legends_logo.webp);
+  -webkit-mask-size: 70%;
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;    
+  width: 150px;
+  height: 100px;
+  border: solid 3px #785a28; 
+}
+.mask2{
+  -webkit-mask-image: url(../Imagenes/League_of_legends_logo.webp);
+  mask-image: url(../Imagenes/League_of_legends_logo.webp);
+  -webkit-mask-size: 70%;
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;    
+  width: 150px;
+  height: 100px;
+  border: solid 3px blue; 
+}
+.mov{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  border: solid 3px #785a28; 
+  box-shadow: solid 4px #131312;
+}
+div.item2{
+  background-color: #f1cf85;
+}

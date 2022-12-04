@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+  font-family: fino;
+}
+@font-face {
+    font-family: beauf;
+     src: url(../font/BeaufortforLOL-Heavy.otf);
+}
+@font-face {
+  font-family: fino;
+  src: url(../Font/BeaufortforLOL-Medium.otf);
+}
+header{
+  background-image: url(../Imagenes/lol-header.jpg);
+  justify-content:center;
+  padding: 0;
+  margin: 0;
+  height: 15vh;
+  background-size: auto;
+  background-size: cover 100% 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+h2{
+  background-color: rgb(0, 0, 0);
+  height: 10px;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  padding-top:30px;
+  background-color: rgb(211, 29, 29);
+  display: grid;
+}
+.texto{
+  background-image: url(../Imagenes/belveth-color-splash.jpg);
+  font-family: beauf;
+  color: #ffb703;
+  text-align: center;
+  font-size: 40px;
+  border: inset 7px rgb(253, 253, 253);
+ -webkit-text-stroke: 2px rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 8vh;
+  position: relative;
+}
+body {
+  position:relative;
+  text-align: center;
+ -webkit-font-smoothing: antialiased;
+  color: #131312;
+  background-image: url(../Imagenes/gradient.png);
+  background-size: cover;
+}
+h3{
+  font-family: fino;
+  color: black;
+  background-image: linear-gradient(#c89b3c, #785a28);
+  height: 16vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  }
+@keyframes example {
+    0%   {right: 100px; top: 0px;}
+    100%  {right: 0px; top: 0px;}
+}
+.mapa{
+    width: 145px;
+    height: 145px;
+}
+.mask1{
+  -webkit-mask-image: url(../Imagenes/League_of_legends_logo.webp);
+  mask-image: url(../Imagenes/League_of_legends_logo.webp);
+  -webkit-mask-size: 70%;
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;    
+  width: 150px;
+  height: 100px;
+  border: solid 3px #785a28; 
+}
+.mask2{
+  -webkit-mask-image: url(../Imagenes/League_of_legends_logo.webp);
+  mask-image: url(../Imagenes/League_of_legends_logo.webp);
+  -webkit-mask-size: 70%;
+  mask-size: 70%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;    
+  width: 150px;
+  height: 100px;
+  border: solid 3px blue; 
+}
+.mov{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  border: solid 3px #785a28; 
+  box-shadow: solid 4px #131312;
+}
+div.item2{
+  background-color: #f1cf85;
+}
+.caja{
+
+  border: 4px solid black;
+  background-color:rgb(184, 153, 230);
+  text-align: center;
+  line-height: 25px;
+
+}
+.grid-layout{
+  display: grid;
+  grid-template-columns: 18% 3.5% auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #785a28;
+  padding: 20px;
+  border: 1px solid black;
+}
+.caja1{
+  grid-column: 1/4;
+  border: 4px solid black;
+  background-image: linear-gradient(90deg, rgb(230, 169, 218) 0%, rgb(184, 153, 230) 62%, rgb(0, 212, 255) 100%);;
+  text-align: center;
+  font-size: 50px;
+  color: azure;
+  line-height: 100px;
+}
+.caja2{
+  grid-row: 2/7;
+  border: 4px solid black;
+  background-image: url(../Imagenes/fondoahri.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  line-height: 100px;
+}
+.caja13{
+  grid-column: 1/4;
+  border: 4px solid black;
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  text-align: center;
+}
+.caja3{
+  background-image: url(../Imagenes/Ahri_pas.png);
+  background-size: contain;
+}
+.caja5{
+  background-image: url(../Imagenes/Ahriq.png);
+  background-size:contain;
+
+}
+.caja7{
+  background-image: url(../Imagenes/Ahriw.png);
+  background-size: cover;
+}
+.caja9{
+  background-image: url(../Imagenes/Ahrie.png);
+  background-size: contain;
+}
+.caja11{
+  background-image: url(../Imagenes/Ahrir.png);
+  background-size: cover;
+}
+.caja2a{
+  grid-row: 2/7;
+  border: 4px solid black;
+  background-image: url(../Imagenes/fondomorde.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:left;
+  text-align: center;
+  line-height: 100px;
+}
+.cajab{
+
+  border: 4px solid black;
+  background-color: #f2b1a4;
+  text-align: center;
+  line-height: 25px;
+
+}
+.caja1b{
+  grid-column: 1/4;
+  border: 4px solid black;
+  background: rgb(66,50,99);
+  background: linear-gradient(273deg, rgba(66,50,99,1) 0%, rgba(242,177,164,1) 0%, rgba(230,216,153,1) 62%, rgba(255,0,0,1) 100%);
+  text-align: center;
+  font-size: 50px;
+  color: azure;
+  line-height: 100px;
+}
+.caja3b{
+  background-image: url(../Imagenes/MordekaiserPassive.png);
+}
+.caja5b{
+  background-image: url(../Imagenes/MordekaiserQ.png);
+}
+.caja7b{
+  background-image: url(../Imagenes/MordekaiserW.png);
+}
+.caja9b{
+  background-image: url(../Imagenes/MordekaiserE.png);
+}
+.caja11b{
+  background-image: url(../Imagenes/MordekaiserR.png);
+}
+
+.caja1c{
+  grid-column: 1/4;
+  border: 4px solid black;
+  background: rgb(221,242,164);
+  background: linear-gradient(273deg, rgba(221,242,164,1) 0%, rgba(153,230,210,1) 66%, rgba(111,1,140,1) 100%);
+  text-align: center;
+  font-size: 50px;
+  color: azure;
+  line-height: 100px;
+}
+.caja2c{
+  grid-row: 2/7;
+  border: 4px solid black;
+  background-image: url(../Imagenes/fondonunu.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  text-align: center;
+  line-height: 100px;
+}
+.cajac{
+
+  border: 4px solid black;
+  background-color: #8a95b9;
+  text-align: center;
+  line-height: 25px;
+
+}
+.caja3c{
+  background-image: url(../Imagenes/NunuPassive.png);
+}
+.caja5c{
+  background-image: url(../Imagenes/NunuQ.png);
+}
+.caja7c{
+  background-image: url(../Imagenes/NunuW.png);
+}
+.caja9c{
+  background-image: url(../Imagenes/NunuE.png);
+}
+.caja11c{
+  background-image: url(../Imagenes/NunuR.png);
+}
+.caja1d{
+  grid-column: 1/4;
+  border: 4px solid black;
+  background: rgb(0,141,246);
+  background: linear-gradient(257deg, rgba(0,141,246,1) 0%, rgba(146,25,238,1) 23%, rgba(81,200,224,1) 58%, rgba(241,255,10,1) 100%);
+  text-align: center;
+  font-size: 50px;
+  color: azure;
+  line-height: 100px;
+}
+.caja2d{
+  grid-row: 2/7;
+  border: 4px solid black;
+  background-image: url(../Imagenes/fondoezr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:right;
+  text-align: center;
+  line-height: 100px;
+}
+.cajad{
+
+  border: 4px solid black;
+  background-color: #ace766;
+  text-align: center;
+  line-height: 25px;
+}
+.caja3d{
+  background-image: url(../Imagenes/Ezrealp.png);
+}
+.caja5d{
+  background-image: url(../Imagenes/EzrealQ.png);
+}
+.caja7d{
+  background-image: url(../Imagenes/EzrealW.png);
+}
+.caja9d{
+  background-image: url(../Imagenes/EzrealE.png);
+}
+.caja11d{
+  background-image: url(../Imagenes/EzrealR.png);
+}
+.cajae{
+  border: 4px solid black;
+  background-color: #c6c6c6;
+  text-align: center;
+  line-height: 25px;
+}
+.caja2e{
+  grid-row: 2/7;
+  border: 4px solid black;
+  background-image: url(../Imagenes/fondomo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  text-align: center;
+  line-height: 100px;
+}
+.caja1e{
+  grid-column: 1/4;
+  border: 4px solid black;
+  background: rgb(238,25,25);
+  background: linear-gradient(257deg, rgba(238,25,25,1) 3%, rgba(255,255,255,1) 58%, rgba(129,129,129,1) 100%);
+  font-size: 50px;
+  line-height: 100px;
+}
+.caja3e{
+  background-image: url(../Imagenes/morganap.png);
+}
+.caja5e{
+  background-image: url(../Imagenes/MorganaQ.png);
+}
+.caja7e{
+  background-image: url(../Imagenes/MorganaW.png);
+}
+.caja9e{
+  background-image: url(../Imagenes/MorganaE.png);
+}
+.caja11e{
+  background-image: url(../Imagenes/MorganaR.png);
+}

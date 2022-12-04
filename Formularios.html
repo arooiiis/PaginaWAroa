@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios League of Legends</title>
+  <link rel="stylesheet" href="./Styles/styleF.css">
+  <link rel="icon" href="./Imagenes/icon-p.jpg">
+</head>
+<body>
+  <header>
+    <h1 class="texto">
+       &nbsp
+          <img src="./Imagenes/League_of_legends_logo.webp" alt="foto icono" width="50px" height="50px">
+          &nbsp &nbsp
+          Formularios
+          &nbsp &nbsp
+          <img src="./Imagenes/League_of_legends_logo.webp" alt="foto icono" width="50px" height="50px">
+       &nbsp
+      </h1>
+      </header>    
+      <h2>
+        <!-- BORDECITO -->
+        </br>
+        <button type="button" onclick="alert('Genial, has llegado a la página de los Formularios')">Sorpresa!</button>
+     </h2>
+     
+  <div class="todosdiv">
+    <div class="arriba">
+      <div class="div1">
+        <form class="posiciones">
+          <p>
+          ¿Cuál es tu línea/as de preferencia?
+          </p></br>
+            <input type="checkbox" id="LINEA1" name="TOP" value="TOP">
+            <label for="LINEA1"> Mi linea favorita es la <b>TOP</b> </label><br>
+            <input type="checkbox" id="LINEA2" name="MID" value="MID">
+            <label for="LINEA2"> Mi linea favorita es <b> MID</b> </label><br>
+            <input type="checkbox" id="LINEA3" name="JUNGLA" value="JUNGLA">
+            <label for="LINEA3"> Mi linea favorita es <b>JUNGLA</b></label><br>
+            <input type="checkbox" id="LINEA4" name="ADC" value="ADC">
+            <label for="LINEA4"> Mi linea favorita es <b>ADC</b></label><br>
+            <input type="checkbox" id="LINEA5" name="SUPPORT" value="SUPPORT">
+            <label for="LINEA5"> Mi linea favorita es <b>SUPPORT</b></label>
+            <img class="imagen_form" src="./Imagenes/League_of_legends_logo.webp">
+        </form>
+      </div>
+      <div class="div2">
+          <form class="posiciones" action="/Personajes.html" target="_blank" method="post">
+              <label for="fname">Nombre de usuario:</label><br>
+              <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" id="fname" name="fname" value="P.Ej:mordek33"></br></br></br>
+              <label for="pwd">Contraseña:</label><br>
+              <input type="contraseña"onkeydown="return /[a-zA-Z0-9]/i.test(event.key)" id="pwd" name="pwd">
+              <input type="submit" value="Submit">
+              <input type="reset">
+          </form>   
+      </div>
+      <div class="div3">
+        <form class="posiciones" action="/Personajes.html" target="_blank" method="post">
+            <label for="fname"> Nombre:</label><br>
+            <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" id="fname" name="fname" value="Nombre"><br>
+            <label for="fecha"> Fecha Nacimiento: </label><br>
+            <input type="date" onkeydown="return /[/0-9/-]/i.test(event.key)" id="fecha" name="fecha"><br>
+            <label for="direccion">Direccion:</label></br>
+            <input type="text" onkeydown="return /[a-zA-Z]/i.test(event.key)" id="direccion" name="direccion" value="Calle ..."><br>
+            <label for="email">E-mail</label><br>
+            <input type="email" onkeydown="return /[a-z@.A-Z0-9]/i.test(event.key)" id="lname" name="lname" value="usuario@gmail.com"><br>
+            <label for="numero"> Número de teléfono: </label><br>
+            <input type="numero" onkeydown="return /[/0-9/-]/i.test(event.key)" id="numero" name="numero"><br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+            <img class="imagen_form2" src="./Imagenes/League_of_legends_logo.webp">
+        </form>
+      </div>
+      <div class="div4">
+        <form class="posiciones" action="/Personajes.html" target="_blank" method="post" >
+          <label for="personajes">Elige un personaje</label>
+          <select id="personaje" name="personaje" size="1">
+          <option value="Ahri">Ahri</option>
+          <option value="Akali">Akali</option>
+          <option value="Amumu">Amumu</option>
+          <option value="Annie">Annie</option>
+          <option value="Ashe">Ashe</option>
+          <option value="Braum">Braum</option>
+          <option value="Caitlyn">Caitlyn</option>
+          <option value="Darius">Darius</option>
+          <option value="Diana">Diana</option>
+          <option value="Ekko">Ekko</option>
+          <option value="Evelynn">Evelynn</option>
+          <option value="Ezreal">Ezreal</option>
+          <option value="Galio">Galio</option>
+          <option value="Gnar">Gnar</option>
+          <option value="Heimerdinger">Heimerdinger</option>
+          <option value="Irelia">Irelia</option>
+          <option value="Jax">Jax</option>
+          <option value="Jhin">Jhin</option>
+          <option value="Kai´Sa">Kai´Sa</option>
+          <option value="Karma">Karma</option>
+          <option value="Katarina">Katarina</option>
+          <option value="Kayle">Kayle</option>
+          <option value="LeBlanc">LeBlanc</option>
+          <option value="Leona">Leona</option>
+          <option value="Lillia">Lillia</option>
+          <option value="Lulu">Lulu</option>
+          <option value="Lux">Lux</option>
+          <option value="Miss Fortune">Miss Fortune</option>
+          <option value="Mordekaiser">Mordekaiser</option>
+          <option value="Morgana">Morgana</option>
+          <option value="Nami">Nami</option>
+          <option value="Nautilus">Nautilus</option>
+          <option value="Neeko">Neeko</option>
+          <option value="Nidalee">Nidalee</option>
+          <option value="Orianna">Orianna</option>
+          <option value="Ornn">Ornn</option>
+          <option value="Poppy">Poppy</option>
+          <option value="Rakan">Rakan</option>
+          <option value="Rammus">Rammus</option>
+          <option value="Riven">Riven</option>
+          <option value="Ryze">Ryze</option>
+          <option value="Sejuani">Sejuani</option>
+          <option value="Sett">Sett</option>
+          <option value="Shen">Shen</option>
+          <option value="Singed">Singed</option>
+          <option value="Sion">Sion</option>
+          <option value="Sivir">Sivir</option>
+          <option value="Sona">Sona</option>
+          <option value="Soraka">Soraka</option>
+          <option value="Sylas">Sylas</option>
+          <option value="Syndra">Syndra</option>
+          <option value="Talon">Talon</option>
+          <option value="Teemo">Teemo</option>
+          <option value="Thresh">Thresh</option>
+          <option value="Tristana">Tristana</option>
+          <option value="Twitch">Twitch</option>
+          <option value="Varus">Varus</option>
+          <option value="Veigar">Veigar</option>
+          <option value="Vi">Vi</option>
+          <option value="Rammus">Rammus</option>
+          <option value="Xayah">Xayah</option>
+          <option value="Yasuo">Yasuo</option>
+          <option value="Zed">Zed</option>
+          <option value="Zigs">Zigs</option>
+          <option value="Zilean">Zilean</option>
+          </select></br>
+          <input type="submit" value="Submit">
+          <input type="reset">
+          <img class="imagen_form" src="./Imagenes/League_of_legends_logo.webp">
+        </form> 
+      </div>
+      <div class="div5">
+      <form class="posiciones" action="/Personajes.html" target="_blank" method="post">
+        <textarea id="message">Aquí te dejo un cuadrito para que añadas sugerencias para mejorar la web </textarea>
+        <br>
+        <input type="submit">
+      </form>
+      </div> 
+    </div>
+  </div>
+  <footer>
+    <h3>
+      Esta es la página de los Formularios
+    </h3>
+  </footer>
+</body>
+</html>
